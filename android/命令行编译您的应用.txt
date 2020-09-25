@@ -1,0 +1,12 @@
+在项目的根目录下使用下面的命令构建调试版本的debug 应用
+
+1: ./gradlew assembleDebug 
+通过上面的命令 可以在项目的目录下的app/build/outputs/apk/debug/ 下生成对应的测试版本的Apk安装包
+
+2: 如果想构建完后直接运行脚本 可以使用下面的命令进行项目构建
+./gradlew installDebug 
+
+
+
+
+
