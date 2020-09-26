@@ -1,5 +1,4 @@
 
-# -*- coding:UTF-8 -*-
 #该脚本用于加密png图片 使用python3以上版本解释执行
 __author__ = "ChenGuanzhou"
  
