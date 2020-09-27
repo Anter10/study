@@ -1,0 +1,10 @@
+// xcode 的相关命令行的工具
+
+1: clean 命令
+xcodebuild clean 清空当前的项目 保证不会出现未知的错误
+
+2: archive 命令
+xcodebuild archive
+
+
+
