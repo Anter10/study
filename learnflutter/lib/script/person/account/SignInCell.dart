@@ -28,7 +28,7 @@ class SignInCellState extends State<SignInCell>{
                      Icon(Icons.login,size: 36,color: Color.fromRGBO(253, 146, 41, 1),),
                      Container(
                        margin: EdgeInsets.only(left:10),
-                       child:Text("登陆一个已有账号", style: TextStyle(fontSize:18)),
+                       child:Text("登陆一个已有账号", style: TextStyle(fontSize:18,color: Colors.black)),
                      )
                    ],
                  )

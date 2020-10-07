@@ -29,7 +29,7 @@ class AboutCellState extends State<AboutCell>{
                         Icon(Icons.public,size: 36,color: Color.fromRGBO(253, 146, 41, 1),),
                         Container(
                           margin: EdgeInsets.only(left:10),
-                          child:Text("关于", style: TextStyle(fontSize:18)),
+                          child:Text("关于", style: TextStyle(fontSize:18,color: Colors.black)),
                         )
                      ],
                     )

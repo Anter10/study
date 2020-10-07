@@ -27,7 +27,7 @@ class EmailCellState extends State<EmailCell>{
                      Icon(Icons.email,size: 36,color: Color.fromRGBO(253, 146, 41, 1),),
                      Container(
                        margin: EdgeInsets.only(left:10),
-                       child:Text("绑定邮箱", style: TextStyle(fontSize:18)),
+                       child:Text("绑定邮箱", style: TextStyle(fontSize:18,color: Colors.black)),
                      )
                    ],
                  )

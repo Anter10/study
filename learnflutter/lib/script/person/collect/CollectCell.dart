@@ -19,7 +19,7 @@ class CollectCellState extends State<CollectCell>{
                             return CollectView();
                          },
                         ));
-                    },
+                },
                child:Container(
                  height:50,
                  padding: EdgeInsets.only(left:8),
@@ -29,7 +29,7 @@ class CollectCellState extends State<CollectCell>{
                      Icon(Icons.favorite_border,size: 36,color: Color.fromRGBO(253, 146, 41, 1),),
                      Container(
                        margin: EdgeInsets.only(left:10),
-                       child:Text("收藏", style: TextStyle(fontSize:18)),
+                       child:Text("收藏", style: TextStyle(fontSize:18,color: Colors.black)),
                      )
                    ],
                  )

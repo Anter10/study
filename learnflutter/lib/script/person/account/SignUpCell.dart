@@ -27,7 +27,7 @@ class SignUpCellState extends State<SignUpCell>{
                      Icon(Icons.app_registration,size: 36,color: Color.fromRGBO(253, 146, 41, 1),),
                      Container(
                        margin: EdgeInsets.only(left:10),
-                       child:Text("注册一个账号", style: TextStyle(fontSize:18)),
+                       child:Text("注册一个账号", style: TextStyle(fontSize:18,color: Colors.black)),
                      )
                    ],
                  )
