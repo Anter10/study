@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:learnflutter/script/person/about/AnnounceCell.dart';
+import 'package:learnflutter/script/person/about/UserAggreementCell.dart';
 
 class AboutView extends StatefulWidget{
       @override
@@ -31,7 +33,7 @@ class AboutViewState extends State<AboutView>{
              );
 
               Container copyrightContainer = Container(
-                margin: EdgeInsets.only(top:30),
+                margin: EdgeInsets.only(top:30, bottom: 60),
                 width: double.infinity,
                 child: Center(child: 
                 Text(
@@ -51,6 +53,10 @@ class AboutViewState extends State<AboutView>{
              body: ListView(children: [
                 appInfoContainer,
                 Divider(),
+                AnnounceCell(),
+                Divider(),
+                // UserAggreementCell(),
+                // Divider(),
                 versionContainer,
                 copyrightContainer,
              ],),
