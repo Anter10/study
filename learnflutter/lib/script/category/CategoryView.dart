@@ -7,13 +7,13 @@ class CategoryView extends StatefulWidget{
       // CategoryModel(this.id, this.title, this.className, this.msg, this.msgInfo, this.dateTime, this.authorName);
 
       List<CategoryModel> categorys = [
-         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","", "", "20201007","黑色科技"),
-         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","", "", "20201007","黑色科技"),
-         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","", "", "20201007","黑色科技"),
-         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","", "", "20201007","黑色科技"),
-         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","", "", "20201007","黑色科技"),
-         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","", "", "20201007","黑色科技"),
-         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","", "", "20201007","黑色科技"),
+         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","布林带和MACD的交易策略", "布林带和MACD的交易策略", "20201007","黑色科技"),
+         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","布林带和MACD的交易策略", "布林带和MACD的交易策略", "20201007","黑色科技"),
+         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","布林带和MACD的交易策略", "布林带和MACD的交易策略", "20201007","黑色科技"),
+         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","布林带和MACD的交易策略", "布林带和MACD的交易策略", "20201007","黑色科技"),
+         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","布林带和MACD的交易策略", "布林带和MACD的交易策略", "20201007","黑色科技"),
+         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","布林带和MACD的交易策略", "布林带和MACD的交易策略", "20201007","黑色科技"),
+         CategoryModel("1","布林带和MACD的交易策略","布林带, MACD","布林带和MACD的交易策略", "布林带和MACD的交易策略", "20201007","黑色科技"),
       ];
 
       @override
