@@ -7,6 +7,17 @@ class SignInView extends StatefulWidget{
 
 
 class SignInViewState extends State<SignInView>{
+            int step = 0;
+            
+          
+            
+
+          
+      
+
+      @override
+      Widget build(BuildContext build){
+             print('hello ${this.step}');
 
             Text phoneLabel = Text("请输入手机号",style: TextStyle(fontSize: 16, color: Colors.black));
             TextFormField phoneInputView = TextFormField(
@@ -38,22 +49,51 @@ class SignInViewState extends State<SignInView>{
                     return null;
                   },
             );
+            
+            RaisedButton sendCodeButton = RaisedButton(
+              onPressed: (){
+                  setState(() {
+                     step = 1;
+                 });
+              },
+              child: const Text('验证账号', style: TextStyle(fontSize: 20,color: Colors.white)),
+              padding: const EdgeInsets.all(10),
+              color: Color.fromRGBO(253, 146, 41, 1),
+            );
 
+          
 
+            RaisedButton verCodeButton = RaisedButton(
+              onPressed: (){
+                 setState(() {
+                     step = 2;
+                 });
+              },
+              child: const Text('验证密码', style: TextStyle(fontSize: 20,color: Colors.white)),
+              padding: const EdgeInsets.all(10),
+              color: Color.fromRGBO(253, 146, 41, 1),
+            );
 
-      @override
-      Widget build(BuildContext build){
+            Container sendCodeContainer = Container(
+               child: sendCodeButton,
+               margin: EdgeInsets.only(top: 120),
+            );
+
+            Container verCodeContainer = Container(
+               child: verCodeButton,
+               margin: EdgeInsets.only(top: 120),
+            );
+
             return Scaffold(
              appBar: AppBar(
                backgroundColor: Color.fromRGBO(253, 146, 41, 1),
                title: Text('登陆'),
              ),
              body: ListView(padding: EdgeInsets.all(20),children: [
-                phoneLabel,
-                phoneInputView,
+                this.step == 0 ? phoneLabel: codeLabel,
+                this.step == 0 ? phoneInputView: codeInputView,
                 partNode,
-                codeLabel,
-                codeInputView,
+                this.step == 0 ? sendCodeContainer:verCodeContainer,
              ],),
           );
 
