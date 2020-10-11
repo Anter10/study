@@ -16,6 +16,7 @@ class SignUpViewState extends State<SignUpView>{
 
           Text phoneLabel = Text("请输入手机号",style: TextStyle(fontSize: 16, color: Colors.black));
             TextFormField phoneInputView = TextFormField(
+                  keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
                     hintText: '输入手机号',
                   ),
@@ -34,6 +35,7 @@ class SignUpViewState extends State<SignUpView>{
 
             Text codeLabel = Text("请输入手机短信验证码",style: TextStyle(fontSize: 16, color: Colors.black));
             TextFormField codeInputView = TextFormField(
+                  keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
                     hintText: '输入手机短信验证码',
                   ),

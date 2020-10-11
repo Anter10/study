@@ -40,7 +40,7 @@ class SignInViewState extends State<SignInView>{
             Text codeLabel = Text("请输账号密码",style: TextStyle(fontSize: 16, color: Colors.black));
             TextFormField codeInputView = TextFormField(
                   decoration: const InputDecoration(
-                    hintText: '输入账号密码"',
+                    hintText: '输入账号密码',
                   ),
                   validator: (value) {
                     if (value.isEmpty) {

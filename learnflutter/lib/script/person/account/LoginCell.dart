@@ -24,7 +24,7 @@ class LoginCellState extends State<LoginCell>{
                  height:120,
                  width: double.infinity,
                  child: Center(
-                     child:Text("添加账户", style: TextStyle(fontSize:18))
+                     child:Text("添加账户", style: TextStyle(fontSize:24,fontWeight: FontWeight.bold, color: Color.fromRGBO(253, 146, 41, 1)))
                  )
                )
              );
